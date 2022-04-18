@@ -28,6 +28,36 @@ This project is licensed under the ${license} license.`;
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
+  ## Table of Contents 
+* [Installation](#installation)
+* [Usage](#usage)
+${renderLicenseLink(data.license)}
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+
+  # Description
+  ${data.description}
+
+  # Installation
+  ${data.installation}
+
+  # Usage
+  ${data.usage}
+
+  # License
+  ${renderLicenseSection(data.license)}
+
+  # Contributing
+  ${data.contribute}
+
+  # Tests
+  ${data.tests}
+
+  # Questions
+  If you have any addtional questions, please send them to following address.
+  ### Email Address: ${data.email}
+
 `;
 }
 
