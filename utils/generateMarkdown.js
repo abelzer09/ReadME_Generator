@@ -40,8 +40,9 @@ ${renderLicenseLink(data.license)}
 
 ## Description
   ${data.description}
+  Deployment video: [Video](https://drive.google.com/file/d/12ovBGktyW9_fAdSISn5YAk18j6RJP60A/view)
 
-## Installation
+  ## Installation
   ${data.installation}
 
 ## Usage
