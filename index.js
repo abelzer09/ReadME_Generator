@@ -15,6 +15,11 @@ const questions = [
         name: "description",
         message: 'Provide a short description of the what, why and how of your project.',
     },
+    // {
+    //     type: 'input',
+    //     name: 'deployed',
+    //     message: ''
+    // }
     {
         type: 'input',
         name: 'table',
@@ -50,6 +55,11 @@ const questions = [
         type: 'input',
         name: 'questions',
         message: 'Add an email address.',
+    }
+    {
+        type: 'input',
+        name: 'gitHub',
+        message: 'Add a link to your GitHub profile',
     }
 ];
 

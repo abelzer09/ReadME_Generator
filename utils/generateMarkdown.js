@@ -56,7 +56,8 @@ ${renderLicenseLink(data.license)}
 
   # Questions
   If you have any addtional questions, please send them to following address.
-  ### Email Address: ${data.email}
+  ### Email Address:  ${data.email}
+  ### GitHub profile: [${data.gitHub}](https//github.com/${data.gitHub})
 
 `;
 }
